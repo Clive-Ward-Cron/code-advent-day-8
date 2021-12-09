@@ -144,6 +144,17 @@ function decodeUSP(usp) {
   return key;
 }
 
+function findSeg2And5(len5, one, four, seg) {
+  let seg2 = null;
+  let seg5 = null;
+  let five = "";
+  for (let p of len5) {
+    let chars = p.split("");
+    let oneChars = one.split("");
+    let fourChars = four.split("");
+  }
+}
+
 function findSegSix(len5, one, four, seg0) {
   let segSix = null;
   let three = "";
