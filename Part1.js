@@ -1,5 +1,3 @@
-import { occurrences } from "./utils.js";
-
 // These numbers correspond to the number of
 // segments used in the numbers 1, 7, 4, and 8 respectively
 const UNIQUE = [2, 3, 4, 7];
